@@ -15,7 +15,7 @@ const womenSubstanceSchema=new mongoose.Schema({
 
     },
     featured:{
-      type:Boolean
+      type:String
     }
 })
 module.exports=mongoose.model("WomenSubstance",womenSubstanceSchema);
